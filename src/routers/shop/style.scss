@@ -1,0 +1,46 @@
+.addgood{
+    width:800px;
+    h1{
+        font-size:30px;
+        margin-left:350px;
+    }
+    margin:50px auto;
+    .ant-form{
+        width:100%;
+        .ant-row{
+            margin-left:200px;
+        }
+    }
+}
+.shopList{
+    text-align: center;
+    h1{
+        font-size: 30px;
+    }
+    .shop-cate{
+        margin:10px 0;
+    }
+}
+.row-handle {
+    text-align: center;
+    &>span {
+      font-size: 14px;
+      cursor: pointer;
+      padding: 0 10px;
+    }
+    &>span:first-child {
+      color: red;
+    }
+    &>span:last-child {
+      color: blue;
+    }
+  }
+  .ant-select-show-arrow{
+      width:100%
+  }
+  .ant-upload{
+      img{
+          width:120px;
+          height:120px;
+      }
+  }
